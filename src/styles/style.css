@@ -1,0 +1,39 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  max-width: 575px;
+}
+
+.header h1 {
+  color: #2ab2af;
+}
+.header h2 {
+  color: #c0df34;
+}
+.header p {
+  font-size: 16px;
+  color: #98a6bd;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.price {
+  background: #2ab2af;
+}
+.price * {
+  color: #e5eff5;
+}
+.price p span {
+  font-size: 36px;
+}
+.price button {
+  font-weight: bold;
+  background: #c0df34;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

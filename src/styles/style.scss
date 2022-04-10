@@ -1,0 +1,49 @@
+$font: 'Karla', sans-serif;
+$font-size: 16px;
+
+* {
+  font-family: $font;
+}
+
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+.container {
+  max-width: 575px;
+}
+.header {
+  h1 {
+    color: $cyan;
+    //font-size: $font-size + 20px;
+  }
+  h2 {
+    color: $bright-yellow;
+    //font-size: $font-size + 5px;
+  }
+  p {
+    font-size: $font-size;
+    color: $grayish-blue;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
+.price {
+  background: $cyan;
+  * {
+    color: $light-gray;
+  }
+  p span {
+    font-size: $font-size + 20px;
+  }
+  button {
+    font-weight: bold;
+    background: $bright-yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+  }
+
+}
